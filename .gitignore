@@ -1,0 +1,3 @@
+# Exclude these directories or files
+/node_modules
+.env
