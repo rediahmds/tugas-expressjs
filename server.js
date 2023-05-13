@@ -2,7 +2,6 @@ require('dotenv').config();
 const express = require('express');
 const { isEmpty } = require('./src/lib');
 const biodata = require('./src/biodata');
-const equal = require('fast-deep-equal');
 
 const app = express();
 const port = process.env.PORT || 9000;
