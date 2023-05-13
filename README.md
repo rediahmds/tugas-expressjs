@@ -21,6 +21,8 @@ should return something like this:
 
 To mock a database, an array is used along with a default biodata.Any POST and GET request will be utilizing the array.
 
+> **RECOMMENDATION**: Use Postman or similar tool to test the app.
+
 ## Doing a POST request
 
 There are rules for doing a POST request:
@@ -28,7 +30,7 @@ There are rules for doing a POST request:
 - The request should have these properties listed: `nama`, `alamat`, `tempat_lahir`, and `tanggal_lahir`. It will fail otherwise.
 - The property of `nama` cannot be an empty string
 
-> NOTE: Use Postman or similar tool for a POST request
+
 
 ## Doing a GET request
 
@@ -36,4 +38,4 @@ Leaving the query empty will trigger the server to send the whole data in the da
 
 ### Querying with a certain property
 
-The server has the ability to find a result with only a few properties if the database
+The server has the ability to find result with only a few properties.
