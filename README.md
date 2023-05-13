@@ -27,10 +27,8 @@ To mock a database, an array is used along with a default biodata.Any POST and G
 
 There are rules for doing a POST request:
 
-- The request should have these properties listed: `nama`, `alamat`, `tempat_lahir`, and `tanggal_lahir`. It will fail otherwise.
+- The request **should have** these listed properties: `nama`, `alamat`, `tempat_lahir`, and `tanggal_lahir`.
 - The property of `nama` cannot be an empty string
-
-
 
 ## Doing a GET request
 
