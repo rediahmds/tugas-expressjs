@@ -19,6 +19,8 @@ should return something like this:
 
 ## Solving the problem
 
+The server runs on port 9000.
+
 To mock a database, an array is used along with a default biodata.Any POST and GET request will be utilizing the array.
 
 > **RECOMMENDATION**: Use Postman or similar tool to test the app.
